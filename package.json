@@ -1,0 +1,29 @@
+{
+  "name": "estoq-backend",
+  "version": "1.0.0",
+  "description": "API do aplicativo Estoq",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "Lucas de Oliveira Feito",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasdeoliveirafeito-arch/estoqbackend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lucasdeoliveirafeito-arch/estoqbackend/issues"
+  },
+  "homepage": "https://github.com/lucasdeoliveirafeito-arch/estoqbackend#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.2"
+  }
+}
